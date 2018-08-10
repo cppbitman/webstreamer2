@@ -1,0 +1,41 @@
+{
+  "name": "webstreamer",
+  "version": "0.3.2",
+  "description": "WebStreamer",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js ",
+    "eslint": "eslint index.js lib/. --config .eslintrc.json",
+    "internal_test": "node test/test.js --internal"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kedacomresearch/webstreamer.git"
+  },
+  "keywords": [
+    "webstreamer"
+  ],
+  "author": "Mingyi Zhang",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kedacomresearch/webstreamer/issues"
+  },
+  "homepage": "https://github.com/kedacomresearch/webstreamer#README.md",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "mocha": "^5.0.5"
+  },
+  "dependencies": {
+    "babel-eslint": "^8.2.3",
+    "bluebird": "^3.5.1",
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "mocha": "^5.0.5",
+    "node-plugin": "latest",
+    "node-tesseract": "^0.2.7",
+    "socket.io-client": "^2.1.0",
+    "uuid": "^3.2.1",
+    "websocket": "^1.0.26"
+  }
+}
